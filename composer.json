@@ -1,0 +1,30 @@
+{
+  "name": "yuncms/yii2-doing",
+  "description": "doing",
+  "keywords": [
+    "doing","yii2","yii2-module"
+  ],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Xu TL",
+      "email": "xutongle@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.6",
+    "yuncms/yii2-user": "~2.0"
+  },
+  "suggest": {
+    "yuncms/yii2-payment": "Allows you to use payment"
+  },
+  "autoload": {
+    "files": [
+      "helpers.php"
+    ],
+    "psr-4": {
+      "yuncms\\doing\\": ""
+    }
+  }
+}
