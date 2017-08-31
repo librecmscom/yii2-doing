@@ -20,7 +20,7 @@ if (!function_exists('doing')) {
             $doing = \yuncms\doing\models\Doing::create([
                 'user_id' => $userId,
                 'action' => $action,
-                'model_id' => $model,
+                'model_id' => $modelId,
                 'model' => $model,
                 'subject' => $subject,
                 'content' => strip_tags($content),
