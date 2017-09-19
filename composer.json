@@ -24,8 +24,7 @@
       "helpers.php"
     ],
     "psr-4": {
-      "yuncms\\doing\\": "src",
-      "yuncms\\migrations\\": "migrations"
+      "yuncms\\doing\\": ""
     }
   },
   "extra": {
