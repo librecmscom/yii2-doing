@@ -33,7 +33,6 @@
       },
       "migrationNamespace": "yuncms/doing/migrations",
       "backend": {
-        "class": "yuncms\\doing\\backend\\Module"
       },
       "frontend": {
         "class": "yuncms\\doing\\frontend\\Module"
