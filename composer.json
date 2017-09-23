@@ -2,7 +2,9 @@
   "name": "yuncms/yii2-doing",
   "description": "doing",
   "keywords": [
-    "doing","yii2","yii2-module"
+    "doing",
+    "yii2",
+    "yii2-module"
   ],
   "type": "yii2-extension",
   "license": "BSD-3-Clause",
@@ -29,6 +31,7 @@
       "name": "doing",
       "i18n": {
         "class": "yii\\i18n\\PhpMessageSource",
+        "sourceLanguage": "en-US",
         "basePath": "@yuncms/doing/message"
       },
       "migrationNamespace": "yuncms\\doing\\migrations",
