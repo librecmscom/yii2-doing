@@ -21,7 +21,7 @@ class M170827042733Create_doing_table extends Migration
         }
         $this->createTable('{{%doing}}', [
             'id' => $this->primaryKey(),
-            'user_id' => $this->integer(),
+            'user_id' => $this->integer()->unsigned(),
             'action' => $this->string(),
             'model_id' => $this->integer(),
             'model' => $this->string(),
