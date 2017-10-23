@@ -89,6 +89,9 @@ class Doing extends ActiveRecord
             case 'create_note':
                 return Yii::t('doing', 'Share an note');
                 break;
+            case 'create_news':
+                return Yii::t('doing', 'Share an news');
+                break;
             case 'create_live':
                 return Yii::t('doing', 'Create the stream');
                 break;
